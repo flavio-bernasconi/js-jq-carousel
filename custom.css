@@ -1,0 +1,45 @@
+.container{
+  width: 90%;
+  margin: auto;
+  max-width: 1200px;
+}
+.container-slider{
+  position: relative;
+}
+img{
+  width: 100%;
+  height: auto;
+  display: none;
+}
+.active{
+  display: inline-block;
+}
+.prev{
+  position: absolute;
+  top: 50%;
+  left: -8%;
+  height: 15px;
+  width: 15px;
+  background: red;
+}
+.next{
+  position: absolute;
+  top: 50%;
+  right: -8%;
+  height: 15px;
+  width: 15px;
+  background: red;
+}
+
+.next:hover , .prev:hover{
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+/*  */
