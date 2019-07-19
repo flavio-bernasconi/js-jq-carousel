@@ -38,7 +38,27 @@ img{
 .next:hover , .prev:hover{
   cursor: pointer;
 }
-
+.bullets{
+  width: 100px;
+  margin:auto;
+  margin-top: 10px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.bullets span{
+  height: 10px;
+  width: 10px;
+  border: solid 1px red;
+  border-radius: 50%;
+}
+.bullets span.active{
+  border: solid 1px red;
+  background: red;
+}
 
 
 
