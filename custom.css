@@ -6,6 +6,10 @@
 .container-slider{
   position: relative;
 }
+.container-img{
+  width: 90%;
+  margin: auto;
+}
 img{
   width: 100%;
   height: auto;
@@ -17,7 +21,7 @@ img{
 .prev{
   position: absolute;
   top: 50%;
-  left: -8%;
+  left: 0%;
   height: 15px;
   width: 15px;
   background: red;
@@ -25,7 +29,7 @@ img{
 .next{
   position: absolute;
   top: 50%;
-  right: -8%;
+  right: 0;
   height: 15px;
   width: 15px;
   background: red;
