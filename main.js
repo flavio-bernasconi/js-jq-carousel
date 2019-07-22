@@ -3,6 +3,8 @@ $( document ).ready(function() {
 
 
 $(".next").click(successivo);
+$(".prev").click(precedente);
+
 
 function successivo(){
   var immagine = $(".container-slider img.active");
@@ -22,7 +24,6 @@ function successivo(){
 }
 
 
-$(".prev").click(precedente);
 
 function precedente(){
   var immagine = $(".container-slider img.active");
